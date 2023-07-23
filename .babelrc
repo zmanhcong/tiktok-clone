@@ -1,0 +1,12 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "~": "./src"
+        }
+      }]
+    ]
+}
+
+// "~": "./src": This line sets up an alias for the "" symbol, which points to the "./src" directory. 
+// So, instead of using relative paths like "../src/file.js" to import files from the "src" directory, you can use the "" alias like "~/file.js".
