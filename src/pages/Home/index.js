@@ -1,5 +1,7 @@
+import Button from '~/components/Layout/components/Button';
+
 function Home() {
-    return <h2>Home page</h2>;
+    return <Button rounded>Get App</Button>;
 }
 
 export default Home;
